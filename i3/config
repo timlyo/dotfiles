@@ -18,15 +18,10 @@ exec /home/tim/.screenlayout/dualMonitor.sh
 exec --no-startup-id nitrogen --restore &
 exec --no-startup-id volumeicon
 exec --no-startup-id nm-applet
-exec --no-startup-id pidgin
-exec --no-startup-id skype
 exec --no-startup-id steam
 exec --no-startup-id dropbox
-#exec --no-startup-id conky
 exec --no-startup-id redshift -l 51:0
 exec --no-startup-id compton -cCGb --backend glx --vsync opengl
-exec --no-startup-id qtox
-#exec --no-startup-id bitcoin-qt
 exec xautolock -time 15 -locker /usr/bin/lock -notify 30  -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
 
 assign [title="^Steam$"] 9
@@ -186,7 +181,7 @@ client.unfocused $black    $lblack      $white
 # finds out, if available)
 bar {
 	font pango:openSans 9
-    status_command i3blocks
+    status_command i3status
 
 	colors {
 

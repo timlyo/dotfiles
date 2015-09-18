@@ -14,6 +14,6 @@ I have included a setup.py (WIP) it uses pacman to instal some software that I u
 
 This is the software that the installer tries to install for my setup
 
-* i3wm
+* i3wm-gaps
 * i3lock
 * xautolock
