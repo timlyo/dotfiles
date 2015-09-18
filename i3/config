@@ -14,6 +14,10 @@ set $mod Mod4
 #personal script to set up my monitors
 exec /home/tim/.screenlayout/dualMonitor.sh
 
+new_window pixel 1
+
+gaps inner 5
+gaps outer 5
 
 exec --no-startup-id nitrogen --restore &
 exec --no-startup-id volumeicon
@@ -22,7 +26,10 @@ exec --no-startup-id steam
 exec --no-startup-id dropbox
 exec --no-startup-id redshift -l 51:0
 exec --no-startup-id compton -cCGb --backend glx --vsync opengl
-exec xautolock -time 15 -locker /usr/bin/lock -notify 30  -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
+exec xautolock -time 5 -locker /usr/bin/i3lock-wrapper -notify 30  -notifier "notify-send -u critical -t 10000 --
+'LOCKING screen in 30 seconds'"
+
+bindsym $mod+l exec /usr/bin/lock
 
 assign [title="^Steam$"] 9
 assign [class="^Skype$"] 9
@@ -53,12 +60,6 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
-
-# change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
