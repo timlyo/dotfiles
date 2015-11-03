@@ -2,19 +2,11 @@
 
 My configuration files, feel free to use anything you find in here.
 
-I have included a setup.py (WIP) it uses pacman to install some software that I use for my configuration and as a result must be run as root. 
+I have included a install.sh to copy files to the correct places, software must still be installed
 
-### dependencies
+## dependencies
 
-* Python 3.5
-* [py-pacman](https://github.com/timlyo/py-pacman)
-
-
-### installed software
-
-This is the software that the installer tries to install for my setup
-
-* i3wm-gaps
-* i3lock-colors-git
-* xautolock
-* compton
+*scrot
+*i3-gaps-git
+*i3lock-color-git
+*i3status
