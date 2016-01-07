@@ -7,6 +7,7 @@ I have included a install.sh to copy files to the correct places, software must 
 ## Dependencies
 
 * i3
+* xautolock
 * scrot
 * i3-gaps-git
 * i3lock-color-git
