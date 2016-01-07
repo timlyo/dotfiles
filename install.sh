@@ -9,3 +9,8 @@ cp i3status/config ~/.config/i3status/config
 
 echo "Installing bashrc"
 cp .bashrc ~/.bashrc
+
+echo "Installing i3lock files"
+# sudo yaourt -S i3lock-color-git
+sudo cp i3lock-fancy/lock /usr/local/bin
+sudo cp i3lock-fancy/lock.png /usr/local/bin
