@@ -14,3 +14,4 @@ echo "Installing i3lock files"
 # sudo yaourt -S i3lock-color-git
 sudo cp i3lock-fancy/lock /usr/local/bin
 sudo cp i3lock-fancy/lock.png /usr/local/bin
+sudo cp i3lock-fancy/lockdark.png /usr/local/bin
