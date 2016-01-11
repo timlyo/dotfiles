@@ -74,8 +74,8 @@ battery 1 {
 	threshold_type = time
 }
 tztime local {
-	# format = "%Y-%m-%d %H:%M:%S"
-	format = " %d/%m/%Y %H:%M:%S"
+	format = "%Y-%m-%d %H:%M:%S"
+	# format = " %d/%m/%Y %H:%M:%S"
 }
 
 volume master{
