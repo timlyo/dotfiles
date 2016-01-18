@@ -184,7 +184,7 @@ client.unfocused $black    $lblack      $white
 # finds out, if available)
 bar {
 	font pango:openSans 9
-    status_command i3status
+    status_command i3blocks
 
 	colors {
 

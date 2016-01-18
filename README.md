@@ -14,6 +14,7 @@ I have included a install.sh to copy files to the correct places, software must 
 * i3-gaps-git
 * i3lock-color-git
 * i3status
+* unclutter (for mouse hiding)
 
 ## Install
 
