@@ -67,12 +67,6 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-# move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
-
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
@@ -106,9 +100,9 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # switch to workspace
-bindsym $mod+z workspace Editor
-bindsym $mod+x workspace Browser
-bindsym $mod+c workspace Music
+bindsym $mod+p workspace Editor
+bindsym $mod+o workspace Browser
+bindsym $mod+m workspace Music
 
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
@@ -122,9 +116,9 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
 # move focused container to workspace
-bindsym $mod+Shift+z move container to workspace Editor
-bindsym $mod+Shift+x move container to workspace Browser
-bindsym $mod+Shift+c move container to workspace Music
+bindsym $mod+Shift+p move container to workspace Editor
+bindsym $mod+Shift+o move container to workspace Browser
+bindsym $mod+Shift+m move container to workspace Music
 
 bindsym $mod+Shift+1 move container to workspace 1
 bindsym $mod+Shift+2 move container to workspace 2
@@ -138,7 +132,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+# bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
