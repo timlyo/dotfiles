@@ -14,3 +14,12 @@ I have included a install.sh to copy files to the correct places, software must 
 * i3-gaps-git
 * i3lock-color-git
 * i3status
+
+## Install
+
+```
+git submodule init
+git submodule update
+
+./install.sh
+```
