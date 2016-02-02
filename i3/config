@@ -17,7 +17,7 @@ exec /home/tim/.screenlayout/dualMonitor.sh
 new_window pixel 1
 
 gaps inner 5
-gaps outer 5
+gaps outer 3
 
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id volumeicon
