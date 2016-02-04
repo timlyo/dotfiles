@@ -27,7 +27,7 @@ exec --no-startup-id unclutter
 exec --no-startup-id dropbox
 exec --no-startup-id redshift -l 51:0
 exec --no-startup-id compton -cCGb --backend glx --vsync opengl
-exec xautolock -time 5 -locker /usr/bin/i3lock-wrapper -notify 30  -notifier "notify-send -u critical -t 10000 --'LOCKING screen in 30 seconds'"
+exec xautolock -time 5 -locker /usr/bin/lockScreen -notify 30  -notifier "notify-send -u critical -t 10000 --'LOCKING screen in 30 seconds'"
 
 bindsym $mod+l exec /usr/bin/lock
 
