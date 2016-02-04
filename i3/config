@@ -24,7 +24,7 @@ exec --no-startup-id volumeicon
 exec --no-startup-id nm-applet
 exec --no-startup-id steam
 exec --no-startup-id unclutter
-exec --no-startup-id cpulimit -l20 dropbox
+exec --no-startup-id dropbox
 exec --no-startup-id redshift -l 51:0
 exec --no-startup-id compton -cCGb --backend glx --vsync opengl
 exec xautolock -time 5 -locker /usr/bin/i3lock-wrapper -notify 30  -notifier "notify-send -u critical -t 10000 --'LOCKING screen in 30 seconds'"
